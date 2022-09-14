@@ -1,9 +1,20 @@
-                                                    # Welcome to C programming
+
+                                                    <h1 align="center">Welcome to C programming</h1>
                                                     ---------------------------
 ## What is C?.
 `C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
  It is a very popular language, despite being old.
  C is strongly associated with UNIX, as it was developed to write.`
+ 
+ ### My First C program
+ ```
+ #include <stdio.h>
+
+int main() {
+  printf("Hello World!");
+  return 0;
+} 
+```
  
  ### C programming topics to be covered
  * C Syntax                                            * C Constants
