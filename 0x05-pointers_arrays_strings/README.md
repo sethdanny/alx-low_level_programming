@@ -1,1 +1,1 @@
-# 0x05-pointers_arrays_strings
+# Introduction to Pointers, Arrays and Strings
