@@ -10,7 +10,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
-	size_t size, i, j, len1, len2;
+	size_t size, i, len1, len2;
 
 	len1 = 0, len2 = 0, size = 0;
 
@@ -30,8 +30,8 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < len1; i++)
 		s3[i] = s1[i];
 
-	for (j = 0; j < len2; j++)
-		s3[len1 + i] = s2[j];
+	for (i = 0; i < len2; i++)
+		s3[len1 + i] = s2[i];
 
 	s3[size - 1] = '\0';
 
