@@ -6,7 +6,7 @@
  * @b: number of bytes to be allocated
  * Return: pointer to the base address
  */
-void *malloc_checked(size_t b)
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 
